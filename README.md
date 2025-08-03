@@ -28,9 +28,9 @@ Eventify is a full-featured web application designed to make event planning seam
 | **Event-Detail**| **Real-Time Chat** |
 | ![Event Details](https://github.com/PraveenKumar-Katta/Event-Management-App/blob/main/src/assets/eventdetails.png) | ![Event Deatails](https://github.com/PraveenKumar-Katta/Event-Management-App/blob/main/src/assets/chat.png)
 
-## 🎥 Demo
+## 🔥 Live link
 
-[Live link](https://www.example.com/watch/eventify-demo)
+[Live link](https://eventifybypk.netlify.app/)
 
 ```
 ## 📂 Project Structure
