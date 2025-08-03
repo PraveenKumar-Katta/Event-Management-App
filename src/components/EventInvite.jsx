@@ -19,7 +19,6 @@ const EventInvite = () => {
   async function fetchEvent() {
     const eventref = doc(db, "events", id);
     const eventSnap = await getDoc(eventref);
-    setResponse(true);
     if (eventSnap.exists()) {
       setEvent({ ...eventSnap.data(), id: eventSnap.id });
     }
@@ -41,6 +40,7 @@ const EventInvite = () => {
     } else {
       dispatch(updateStatusReject({ id, email }));
     }
+    setResponse(true);
     toast.success(
       `Your ${responce}ed the Invitation,Thank you for your responce`
     );
